@@ -1,0 +1,34 @@
+{
+  "name": "pi-exa",
+  "version": "1.0.0",
+  "description": "Exa MCP tools for pi: web_search_exa (semantic web search with clean text results) and web_fetch_exa (bounded page content as markdown)",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "exa",
+    "mcp"
+  ],
+  "license": "0BSD",
+  "author": "Shengyun Wang <leo_wsy@outlook.com>",
+  "files": [
+    "index.ts"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.4",
+    "@types/node": "^26.4.0",
+    "typebox": "^1.3.7",
+    "typescript": "^5.9.3"
+  }
+}
